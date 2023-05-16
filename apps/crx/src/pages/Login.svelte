@@ -1,6 +1,7 @@
 <div
   class="flex px-4 md:px-8 pt-16 pb-8 w-full overflow-auto flex-1 gap-3 items-center flex-col justify-center"
 >
+  <img src="linguisticio-48.png" alt="linguistic.io logo">
   <div class="flex flex-col justify-center items-center">
     <h2 class="typography h2 primaryg">Welcome back!</h2>
     <p class="typography gray body">
@@ -38,7 +39,6 @@
         required=""
         placeholder="Username"
         name="email"
-        class="svelte-60zm7w"
         type="email"
       />
     </div>
@@ -70,7 +70,6 @@
         required=""
         placeholder="Password"
         name="password"
-        class="svelte-60zm7w"
         type="password"
       />
     </div>
@@ -82,12 +81,9 @@
         <span class="lg-btn-text">Login</span>
       </button>
       <div class="flex flex-row gap-2 justify-start items-center">
-        <input type="checkbox" name="keep" id="keep" />
-        <label for="keep"
-          ><p class="typography subheadline">
-            Keep me logged in
-          </p></label
-        >
+        <p class="typography subheadline">
+          Don't have an account? Sign up!
+        </p>
       </div>
     </div>
   </form>
