@@ -8,5 +8,23 @@
     "32": "linguisticio-32.png",
     "48": "linguisticio-48.png",
     "128": "linguisticio-128.png"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "Lato-Black.ttf",
+        "Lato-BlackItalic.ttf",
+        "Lato-Bold.ttf",
+        "Lato-BoldItalic.ttf",
+        "Lato-Regular.ttf",
+        "Lato-Italic.ttf",
+        "Lato-Light.ttf",
+        "Lato-LightItalic.ttf",
+        "Lato-Thin.ttf",
+        "Lato-ThinItalic.ttf"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+
 }
